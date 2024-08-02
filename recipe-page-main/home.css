@@ -1,0 +1,169 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+background-color: white;
+  width: 600px;
+  margin: 100px 0px;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.section-1 h1 {
+  font-weight: bold;
+  font-family: "youngserif";
+}
+
+.section-1 p {
+  margin: 15px 0px;
+  color: hsl(30, 10%, 34%);
+}
+
+img {
+    width: 100%; 
+    text-align: center; 
+    border-radius: 15px; 
+}
+
+.section-2 {
+  background-color: hsl(330, 100%, 98%);
+  padding: 20px;
+  margin: 20px 0px;
+}
+
+.section-2 h3 {
+  color: hsl(332, 51%, 32%);
+  padding-bottom: 5px;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.section-2 ul {
+  color: hsl(30, 10%, 34%);
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+
+.section-2 li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.section-2 span {
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 0px 5px;
+  padding-left: 12px;
+  color: hsl(30, 10%, 34%)
+}
+
+.section-3 {
+  margin: 20px 0px;
+}
+
+.section-3 h2 {
+  color: hsl(14, 45%, 36%);
+  margin-bottom: 15px;
+}
+
+.section-3 ul {
+  list-style-position: inside;
+}
+
+.section-3 li {
+  padding: 5px;
+  color: hsl(30, 10%, 34%);
+}
+
+.section-3 li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.section-4 {
+  margin: 20px 0px;
+}
+
+.section-4 h2 {
+  color: hsl(14, 45%, 36%);
+  margin: 15px 0px;
+}
+
+.section-4 ol {
+  padding-left: 5px;
+}
+
+.section-4 li {
+  color: hsl(30, 10%, 34%);
+  padding: 5px 10px;
+}
+
+.section-4 li::marker {
+  color: hsl(14, 45%, 36%);
+  font-family: sans-serif;
+}
+
+.section-4 span {
+  display: inline-block;
+  font-weight: bold;
+  color: hsl(30, 10%, 34%)
+}
+
+.section-5 {
+  margin: 20px 0px;
+}
+
+.section-5 h2 {
+  color: hsl(14, 45%, 36%);
+  font-family: serif;
+  margin: 15px 0px;
+}
+
+.section-5 p {
+  color: hsl(30, 10%, 34%);
+  margin: 15px 0px;
+}
+
+td {
+  color: hsl(14, 45%, 36%);
+}
+
+table tr td:first-child {
+  color: hsl(30, 10%, 34%)
+}
+
+table {
+  width: 100%;
+}
+
+tr {
+  width: 100%;
+  border-bottom: 1px solid hsl(30, 10%, 34%);
+  border-collapse: collapse;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 1rem;
+
+}
+
+.section-6 {
+  font-size: 20px;
+}
+
+.section-6 a {
+  background-color: hsl(14, 45%, 36%);
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 0px 5px;
+}
+
